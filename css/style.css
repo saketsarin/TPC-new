@@ -7278,8 +7278,7 @@ html:not(.tablet):not(.mobile) .profile-minimal-caption {
   background-image: linear-gradient(
     to left,
     rgba(255, 0, 0, 0),
-    /* rgba(255, 0, 0, 0), */
-    rgba(255, 255, 255, 0.9)
+    /* rgba(255, 0, 0, 0), */ rgba(255, 255, 255, 0.9)
   );
 }
 
@@ -19094,4 +19093,15 @@ disabled look for disabled choices in the results dropdown
 
 .theme-switcher-group-item[data-theme-name="style-5"] {
   background: #c02921;
+}
+
+.bullet-point {
+  position: relative;
+  display: inline-block !important;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #aeb1be;
+  margin-right: 10px;
+  margin-left: 10px;
 }
