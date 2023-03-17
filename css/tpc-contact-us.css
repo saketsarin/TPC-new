@@ -7,12 +7,18 @@
 }
 
 .google-map-contactus iframe {
-    height: 80%;
     width: 100%;
-    position: absolute;
-
+    position: relative;
+    margin-bottom: 50px;
+    padding-left: 40px;
 }
 
+@media (max-width: 425px)
+{
+  #jobDescBtn{
+    font-size: 11px;
+  }
+}
 .text-blk {
     margin: 0px;
     line-height: 25px;
