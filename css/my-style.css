@@ -1,3 +1,54 @@
+/* PAST PLACEMENTS */
+
+
+.info-container{
+  display: flex;
+  justify-content: center;
+}
+
+.main-info{
+  width: 80%;
+  /* background-color: rgb(243, 243, 243); */
+  height: inherit;
+  /* border: 2px solid black; */
+  border-left: 10px solid #006db7;
+  margin-bottom: 20px;
+  padding: 50px 20px;
+  /* box-shadow: 5px 2px 2px black; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.heading-underline {
+  height: 5px;
+  width: 10%;
+  margin: 20px auto 50px;
+  background-color: #006db7;
+  border-radius: 20px;
+}
+.inner-img {
+  transition: 0.3s;
+  width: 150px;
+  height: 150px;
+}
+
+.inner-img:hover {
+  transform: scale(1.1);
+}
+.clients {
+  padding-bottom: 80px;
+}
+.clients .heading-underline {
+  margin-bottom: 70px;
+}
+.prevRec {
+  margin-bottom: 30px;
+}
+.prevRec .container .row .col-md-3 {
+  height: 200px;
+}
+/* PAST PLACEMENTS */
+
+/* CONTACT US */
 .google-map-contactus {
     /* padding-bottom: 50%; */
     position: relative;
@@ -90,3 +141,4 @@
     padding-bottom: 5px;
     transform: scale(1.5);
   }
+  /* CONTACT US */
