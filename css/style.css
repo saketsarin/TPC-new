@@ -5194,9 +5194,9 @@ html:not(.tablet):not(.mobile)
   .breadcrumbs-custom {
     min-height: 23.75vw;
   }
-  .breadcrumbs-custom-inner {
+  /* .breadcrumbs-custom-inner {
     padding: 80px 0 30px;
-  }
+  } */
   .breadcrumbs-custom-subtitle + .breadcrumbs-custom-title {
     margin-top: 5px;
   }
