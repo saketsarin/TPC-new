@@ -12,6 +12,6 @@ window.addEventListener("scroll", function () {
       value = 500;
     }
 
-    alumniIntro.style.top = value * 0.75 + "px";
+    alumniIntro.style.top = value * 0.5 + "px";
   }
 });
