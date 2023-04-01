@@ -9330,6 +9330,8 @@ html:not(.lt-ie10) .not-animated {
   z-index: 10;
   transform: translate3d(0, -50%, 0);
   padding: 40px;
+  transform: scale(2);
+  top: -80px;
 }
 
 .preloader-body {
@@ -11383,6 +11385,7 @@ html.rd-navbar-fixed-linked .page {
   height: auto;
   max-width: 200px;
   max-height: 200px;
+  transform: scale(1.5);
 }
 
 .rd-navbar-minimal.rd-navbar-static .rd-navbar-megamenu {
