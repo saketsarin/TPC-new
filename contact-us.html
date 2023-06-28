@@ -30,6 +30,35 @@
     <!-- Page Header-->
     <!-- <section class="section page-header-navbar rd-navbar-outer jumbotron-classic"> -->
     <header class="section page-header">
+      <div class="social-floating">
+        <ul class="social-media-float social-media text-white list-inline text-lg-right text-center margin-0px">
+
+          <li style="background-color: #5662d8;" class="list-inline-item social-media-float-li">
+            <a style="color:white;" class="facebook" href="https://www.instagram.com/tpc_ccet26/" target="_blank"
+              rel="noopener noreferrer">
+              <i class="fa fa-instagram" style="font-size: 25px;" aria-hidden="true"></i>
+            </a>
+          </li>
+
+          <li style="background-color: #3e599c;" class="list-inline-item social-media-float-li">
+            <a style="color:white;" class="facebook" href="https://www.facebook.com/TpcCCET/" target="_blank"
+              rel="noopener noreferrer">
+              <i class="fa fa-facebook" style="font-size: 25px;" aria-hidden="true"></i>
+            </a>
+          </li>
+
+          <li style="background-color: #5662d8;" class="list-inline-item social-media-float-li"><a style="color:white;"
+              class="facebook"
+              href="https://in.linkedin.com/in/training-and-placement-cell-ccet-panjab-university-641341112"
+              target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin" style="font-size: 25px;"
+                aria-hidden="true"></i></a>
+          </li>
+
+          <li style="background-color: #3e599c;" class="list-inline-item social-media-float-li"><a style="color:white;"
+              class="facebook" href="mailto:tpo@ccet.ac.in"><i class="fa fa-envelope-o" style="font-size: 25px;"
+                aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
       <!-- RD Navbar-->
       <div class="rd-navbar-wrap">
         <nav class="rd-navbar rd-navbar-minimal rd-navbar-minimal-wide" data-layout="rd-navbar-fixed"
@@ -265,28 +294,29 @@
                   <div class="row row-10">
                     <div class="col-md-6 wow-outer">
                       <div class="form-wrap wow fadeSlideInUp">
-                        <label class="form-label-outside" for="contact-first-name">Name</label>
+                        <!-- show red asterisk -->
+                        <label class="form-label-outside required" for="contact-first-name">Name</label>
                         <input class="form-input" id="contact-first-name" type="text" name="name"
                           data-constraints="@Required">
                       </div>
                     </div>
                     <div class="col-md-6 wow-outer">
                       <div class="form-wrap wow fadeSlideInUp">
-                        <label class="form-label-outside" for="company-name">Company Name</label>
+                        <label class="form-label-outside required" for="company-name">Company Name</label>
                         <input class="form-input" id="company-name" type="text" name="companyName"
                           data-constraints="@Required">
                       </div>
                     </div>
                     <div class="col-md-6 wow-outer">
                       <div class="form-wrap wow fadeSlideInUp">
-                        <label class="form-label-outside" for="contact-email">E-mail</label>
+                        <label class="form-label-outside required" for="contact-email">E-mail</label>
                         <input class="form-input" id="contact-email" type="email" name="email"
                           data-constraints="@Email @Required">
                       </div>
                     </div>
                     <div class="col-md-6 wow-outer">
                       <div class="form-wrap wow fadeSlideInUp">
-                        <label class="form-label-outside" for="contact-phone">Phone</label>
+                        <label class="form-label-outside required" for="contact-phone">Phone</label>
                         <input class="form-input" id="contact-phone" type="tel" maxlength="12" pattern="[0-9]{10}"
                           name="phone" data-constraints="@PhoneNumber @Required">
                       </div>
@@ -315,7 +345,7 @@
                     </div>
                     <div class="col-md-6 wow-outer">
                       <div class="form-wrap wow fadeSlideInUp">
-                        <label class="form-label-outside" for="contact-message">Message</label>
+                        <label class="form-label-outside required" for="contact-message">Message</label>
                         <textarea class="form-input" id="contact-message" name="txtMsg"
                           data-constraints="@Required"></textarea>
                       </div>
@@ -876,7 +906,7 @@
                   <li class="object-inline">
                     <span class="icon icon-md mdi mdi-link-variant text-primary"></span>
                     <a class="link-default" target="_blank" href="https://www.ccet.ac.in">www.ccet.ac.in</a>
-                </li>
+                  </li>
                 </ul>
               </div>
             </div>
