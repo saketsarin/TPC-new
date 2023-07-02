@@ -74,6 +74,10 @@
   margin-left: -10px;
 }
 
+.social-media-float-li a i {
+  font-style: normal;
+}
+
 @media (max-width: 768px) {
   .social-media-float-li {
     width: 30px;
